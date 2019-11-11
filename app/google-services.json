@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "876634519127",
+    "firebase_url": "https://vldrshv-gallery.firebaseio.com",
+    "project_id": "vldrshv-gallery",
+    "storage_bucket": "vldrshv-gallery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876634519127:android:149e1e00bf9d0fc28ed512",
+        "android_client_info": {
+          "package_name": "com.example.alfagallery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876634519127-9diudqec3gb2purddalht59a7kpqq0pv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdtmMiZE8CQyIhpIw1Ml8pHwo1clZ9xbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876634519127-9diudqec3gb2purddalht59a7kpqq0pv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

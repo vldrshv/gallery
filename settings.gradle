@@ -1,0 +1,2 @@
+rootProject.name='AlfaGallery'
+include ':app'
