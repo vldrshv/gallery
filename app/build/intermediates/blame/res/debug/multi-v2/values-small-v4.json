@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\vershov\\Desktop\\demo\\gallery\\AlfaGallery\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\vershov\\.gradle\\caches\\transforms-2\\files-2.1\\6855f32ef154ad150c56e5e0bf100c90\\material-1.2.0-alpha01\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\vershov\\.gradle\\caches\\transforms-2\\files-2.1\\12181a25c730cb265a9ebe9bd79fe666\\material-1.2.0-alpha01\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
