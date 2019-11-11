@@ -2,21 +2,12 @@ package com.example.alfagallery.presenter
 
 import android.app.ProgressDialog
 import android.net.Uri
-import android.util.Log
-import android.view.View
-import android.widget.ImageView
-import com.example.alfagallery.Firebase
-import com.example.alfagallery.IImageUpload
-import com.example.alfagallery.Photo
-import com.google.android.gms.tasks.OnSuccessListener
-import com.google.firebase.storage.FirebaseStorage
-import com.google.firebase.storage.StorageReference
-import com.squareup.picasso.Picasso
+import com.example.alfagallery.model.Firebase
+import com.example.alfagallery.IPhotoChoose
 import java.util.*
-import kotlin.collections.ArrayList
 
 // todo MOXY
-class ServerPresenter (val view: IImageUpload? = null) {
+class ServerPresenter (val view: IPhotoChoose? = null) {
     private val CLASS_TAG = "Presenter"
     private val firebase = Firebase()
 

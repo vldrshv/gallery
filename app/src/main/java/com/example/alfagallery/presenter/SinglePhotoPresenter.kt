@@ -1,8 +1,7 @@
 package com.example.alfagallery.presenter
 
-import android.net.Uri
 import android.widget.ImageView
-import com.example.alfagallery.Firebase
+import com.example.alfagallery.model.Firebase
 import com.squareup.picasso.Picasso
 
 class SinglePhotoPresenter(val view: ImageView) {

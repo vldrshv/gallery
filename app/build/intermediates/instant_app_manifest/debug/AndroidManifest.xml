@@ -32,19 +32,6 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name="com.example.alfagallery.FullscreenActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_fullscreen"
-            android:theme="@style/FullscreenTheme" />
-        <activity android:name="com.example.alfagallery.MainActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="com.example.alfagallery.provider"
@@ -54,15 +41,24 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
         </provider>
+        <!-- open photo full screen -->
+        <activity
+            android:name="com.example.alfagallery.view.activities.PhotoViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen"
+            android:theme="@style/FullscreenTheme" />
+        <!-- view all server photos -->
+        <activity android:name="com.example.alfagallery.view.activities.GalleryActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <activity android:name="com.example.alfagallery.PhotoChooseActivity" >
-
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- choose photo to upload -->
+        <activity
+            android:name="com.example.alfagallery.view.activities.PhotoChooseActivity"
+            android:screenOrientation="sensorPortrait" >
         </activity>
 
         <service
@@ -107,12 +103,6 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-
-        <provider
-            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="com.example.alfagallery.lifecycle-process"
-            android:exported="false"
-            android:multiprocess="true" />
     </application>
 
 </manifest>

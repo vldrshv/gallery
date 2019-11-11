@@ -3,11 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FullscreenActivity">
+    tools:context=".view.activities.PhotoViewActivity">
     <ImageView
         android:id="@+id/fullscreen_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:adjustViewBounds="true"
         android:gravity="center"
-        android:keepScreenOn="true" />
+        android:keepScreenOn="true"
+        />
 </FrameLayout>

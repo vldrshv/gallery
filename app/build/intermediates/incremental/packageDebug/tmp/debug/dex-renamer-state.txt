@@ -1,10 +1,10 @@
-#Mon Nov 11 18:58:25 MSK 2019
+#Tue Nov 12 00:00:06 MSK 2019
 path.2=classes2.dex
 path.1=classes.dex
 path.0=classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.2=C\:\\Users\\vershov\\Desktop\\demo\\gallery\\AlfaGallery\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes2.dex
-base.1=C\:\\Users\\vershov\\Desktop\\demo\\gallery\\AlfaGallery\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
-base.0=C\:\\Users\\vershov\\Desktop\\demo\\gallery\\AlfaGallery\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+base.2=C\:\\Users\\user\\Desktop\\alpha\\gallery\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes2.dex
+base.1=C\:\\Users\\user\\Desktop\\alpha\\gallery\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+base.0=C\:\\Users\\user\\Desktop\\alpha\\gallery\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
